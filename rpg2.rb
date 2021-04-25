@@ -1,4 +1,4 @@
-class Yusha
+class Brave
     def initialize(hpY,attackY,difenceY,speedY)
         $hpY = hpY
         $attackY = attackY
@@ -58,8 +58,8 @@ class Teki
     end
 end
 
-yusha = Yusha.new(hpY=300,attackY=30,difenceY=10,speedY=100)
+brave = Brave.new(hpY=300,attackY=30,difenceY=10,speedY=100)
 teki=Teki.new(hpE=200,attackE=70,difenceE=5,speedE=150)
-yusha.show_prop
+brave.show_prop
 teki.show_prop
-yusha.fight
+brave.fight
